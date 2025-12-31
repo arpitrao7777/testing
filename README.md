@@ -1,71 +1,148 @@
-# Running the Python Application with Docker
+# 👋 Yo there, I'm Arpit Yadav
 
-This guide will walk you through the process of building a Docker image and running a Python application using FastAPI, which interacts with a Microsoft SQL Server database using PyODBC. The application is containerized for easy deployment and scaling.
+🚀 **Azure Cloud & DevOps Engineer | Terraform | Kubernetes | CI/CD Enthusiast**
 
-## Prerequisites
+---
 
-Before getting started, make sure you have the following prerequisites installed on your system:
+## 🔥 About Me
 
-- [Docker](https://docs.docker.com/get-docker/)
-- Docker Compose (usually included with Docker Desktop on Windows and Docker for Mac)
+- ☁️ Azure-focused DevOps Engineer with **3+ years of hands-on experience** in cloud infrastructure, automation, and scalable system design.
+- 🧩 Strong advocate of **Infrastructure as Code (IaC)** and GitOps-driven delivery models.
+- ⚙️ Experienced in designing and implementing **end-to-end CI/CD pipelines** for cloud-native and VM-based applications.
+- 🏢 Currently working at **DevOps Insiders** as a **DevOps Engineer**, contributing to real-world DevOps and cloud transformation initiatives.
+- 📈 Continuously improving skills in **Kubernetes, GitOps, CI/CD automation, and cloud observability**.
 
-## Step 1: Clone the Repository
+---
 
-Clone the application's source code from your version control system or download it as a zip archive and extract it to your local machine.
+## 🧰 Technical Stack
 
-```bash
-git clone <repository_url>
-cd <repository_directory>
-```
+### ☁️ Cloud & DevOps
+- Microsoft Azure
+- Azure DevOps
+- GitHub Actions
+- CI/CD Pipelines
+- GitOps (Argo CD)
 
-## Step 2: Update Connection String
+### 📦 Containers & Orchestration
+- Docker
+- Kubernetes (AKS)
+- Helm Charts
 
-Edit the `app.py` file to update the `connection_string` variable with the appropriate connection details for your SQL Server database.
+### 🏗️ Infrastructure as Code
+- Terraform
+- Modular Terraform Architecture
+- Remote State Management
 
-## Step 3: Build the Docker Image
+### 📊 Monitoring & Observability
+- Prometheus
+- Grafana
 
-To build the Docker image, open a terminal, navigate to the project directory, and run the following command:
+### 💻 Programming & Scripting
+- Python
+- PowerShell Scripting
+- Linux (Shell & Administration)
 
-```bash
-docker build -t my-python-app .
-```
+### 🗄️ Databases
+- MySQL
 
-Replace `my-python-app` with a suitable name for your Docker image.
+### 🔧 Tools
+- Git & GitHub
+- VS Code
+- Azure CLI
+- Linux Environment
 
-## Step 4: Run the Docker Container
+---
 
-After successfully building the Docker image, you can run the application in a Docker container with the following command:
+## 🚀 Projects
 
-```bash
-docker run -p 8000:8000 my-python-app
-```
+### 🔹 Azure FastAPI – React Todo Application | DevOps Project
 
-Replace `my-python-app` with the name you provided in step 3.
+- Designed and deployed a **full-stack Todo application** using **React (frontend)** and **FastAPI (backend)** on **Microsoft Azure**.
+- Implemented **end-to-end DevOps practices**, covering application build, deployment, and infrastructure management.
+- Provisioned and managed Azure resources such as:
+  - Resource Groups  
+  - Virtual Machines  
+  - Database services  
+  using **Terraform (Infrastructure as Code)**.
+- Ensured **data persistence** through backend database integration.
 
-The `-p 8000:8000` option maps port 8000 on your host machine to the container's port 8000. You can change the host port if needed.
+**Tech Stack:** Azure, Terraform, React, FastAPI, Docker, Linux
 
-## Step 5: Access the Application
+---
 
-Your Python application is now running in a Docker container. You can access it by opening a web browser or sending HTTP requests to `http://localhost:8000`.
+### 🔹 TaskOps GitOps | End-to-End DevOps & GitOps Project
 
-## API Endpoints
+- Built a **production-grade cloud-native DevOps & GitOps architecture** on **Microsoft Azure**.
+- Automated **infrastructure provisioning** using **Terraform modules**, following reusable and scalable IaC design.
+- Implemented **CI pipelines using GitHub Actions** to build and push Docker images.
+- Deployed **microservices on Azure Kubernetes Service (AKS)** using:
+  - **Argo CD** for GitOps-based continuous delivery  
+  - **Helm Charts** for Kubernetes application packaging and versioning
+- Integrated **Application Gateway Ingress Controller (AGIC)** for ingress traffic management.
+- Followed **GitOps principles**, keeping Git as the single source of truth.
 
-- `/tasks`: List all tasks (GET)
-- `/tasks/{task_id}`: Retrieve a single task by ID (GET)
-- `/tasks`: Create a new task (POST)
-- `/tasks/{task_id}`: Update an existing task by ID (PUT)
-- `/tasks/{task_id}`: Delete a task by ID (DELETE)
+**Tech Stack:** Azure, AKS, Terraform, GitHub Actions, Argo CD, Helm, Docker, Kubernetes
 
-## Cleaning Up
+---
 
-To stop and remove the Docker container, press `Ctrl + C` in the terminal where the container is running. Then, remove the container with:
+## 📂 More Projects on GitHub
 
-```bash
-docker rm -f <container_id>
-```
+In addition to the projects listed above, I have worked on **10+ hands-on DevOps, Cloud, and Automation projects**, covering real-world use cases across **Terraform, CI/CD, Kubernetes, Docker, and GitHub Actions**.
 
-Replace `<container_id>` with the actual container ID, which you can obtain from `docker ps`.
+### 🔹 Notable Repositories
 
-## Conclusion
+- **Pipeline-Terraform-Automation**  
+  End-to-end CI/CD automation integrating Terraform with pipeline-driven infrastructure provisioning.
 
-You've successfully built and run a Python application using Docker. Feel free to make changes to the application, rebuild the Docker image, and deploy it to your preferred environment.
+- **Terraform-Advance-Code**  
+  Advanced Terraform concepts including lifecycle rules, state management, loops, and modular design.
+
+- **Terraform-Module-Structure-Code**  
+  Well-structured Terraform module architecture following industry best practices.
+
+- **github-action-practice**  
+  Practical CI workflow implementations using GitHub Actions.
+
+- **k8s-core-concepts-lab**  
+  Hands-on Kubernetes lab covering pods, services, deployments, and networking.
+
+- **devops-docker-practice-suite**  
+  Docker practice repository covering containerization and image management.
+
+- **AgroTech-Crop-Selector**  
+  Final-year project implementing a data-driven crop recommendation system.
+
+- **SuperMarket-Billing-System**  
+  Backend-focused application demonstrating database integration and business logic.
+
+---
+
+🔗 **Explore all repositories here:**  
+👉 https://github.com/arpitrao7777?tab=repositories
+
+---
+
+## 📌 Experience
+
+- **3+ Years of Experience** in:
+  - Azure cloud infrastructure provisioning
+  - CI/CD pipeline implementation
+  - Containerized application deployment
+  - Kubernetes and GitOps workflows
+  - Infrastructure automation using Terraform
+
+- **Current Organization:**  
+  🏢 **DevOps Insiders**  
+  💼 Role: **DevOps Engineer**
+
+---
+
+## 🤝 Let’s Connect
+
+- 💼 **LinkedIn:** https://www.linkedin.com/in/arpit-yadav-786b1622b  
+- 🐙 **GitHub:** https://github.com/arpitrao7777  
+- 📧 **Email:** arpit39115@gmail.com  
+
+---
+
+⭐ *Always automating. Always improving. Building cloud systems the right way.*
