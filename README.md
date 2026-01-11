@@ -6,7 +6,7 @@
 
 ## 🔥 About Me
 
-- ☁️ Azure-focused DevOps Engineer with **3+ years of hands-on experience** in cloud infrastructure, automation, and scalable system design.
+- ☁️ Azure-focused DevOps Engineer with **hands-on experience** in cloud infrastructure, automation, and scalable system design.
 - 🧩 Strong advocate of **Infrastructure as Code (IaC)** and GitOps-driven delivery models.
 - ⚙️ Experienced in designing and implementing **end-to-end CI/CD pipelines** for cloud-native and VM-based applications.
 - 🏢 Currently working at **DevOps Insiders** as a **DevOps Engineer**, contributing to real-world DevOps and cloud transformation initiatives.
