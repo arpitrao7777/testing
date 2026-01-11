@@ -124,7 +124,7 @@ In addition to the projects listed above, I have worked on **10+ hands-on DevOps
 
 ## 📌 Experience
 
-- **3+ Years of Experience** in:
+- **A High Level of Experience** in:
   - Azure cloud infrastructure provisioning
   - CI/CD pipeline implementation
   - Containerized application deployment
